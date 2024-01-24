@@ -1,0 +1,88 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: 20px;
+}
+
+.gridTwo .child-1 {
+    background-color: red;
+}
+
+.gridTwo .child-2 {
+    background-color: blue;
+}
+
+.gridTwo .child-3 {
+    background-color: yellow;
+}
+
+.gridThree {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    margin-bottom: 20px;
+}
+
+.gridThree .child-1 {
+    background-color: lightcoral;
+}
+
+.gridThree .child-2 {
+    background-color: lightblue;
+}
+
+.gridThree .child-2 img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    width: 500px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+#four-id {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    width: 500px;
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+#five-id {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#five-id img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    width: 500px;
+    background-color: lightgray;
+    font-family: 'Grenze Gotisch', serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
